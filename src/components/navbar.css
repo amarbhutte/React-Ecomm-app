@@ -1,0 +1,102 @@
+.inner_container{
+    display: inline-flex;
+   
+    box-sizing: border-box;
+align-items: center;
+width: 100%;
+
+
+justify-content: space-evenly;
+
+}
+.logo_section{
+    display: flex;
+align-items: center;
+gap: 14.59px;
+
+}
+.logo_brand{
+    width: 34.73px;
+height: 57.89px;
+}
+.logo_icon{
+    width: 30px;
+    height: 50px;
+}
+.logo_name{
+    color: #677DA8;
+font-size: 30px;
+font-weight: 700;
+font-family: 'PT Serif', serif;
+
+}
+
+.navbar_box{
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+.nav_lists{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    width:400px;
+  color:  rgb(103,125,168);
+
+
+}
+.no-underline{
+    text-decoration: none;
+
+}
+.nav_lists li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.srch{
+    display: flex;
+    align-items: center;
+   
+}
+.srch_small{
+    background-color: #fff;
+    padding: 6px 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.srch_small input{
+    border: none;
+    outline: none;
+}
+.cart_user{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    margin-left: 30px;
+   
+}
+
+
+.cart_number{
+   display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+    width: 18.512px;
+    height: 18.512px;
+    flex-shrink: 0;
+    border-radius: 18.512px;
+    background: #677DA8;
+    position: relative;
+    right:10px;
+}
+.user_profile{
+    height: 35px;
+}

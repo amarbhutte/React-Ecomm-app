@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+.inner_box_container{
+    display: flex;
+    /* border: 10px solid chartreuse; */
+}
+.main_box_container1{
+    display: flex;
+    justify-content: center;
+    /* border: 10px solid rgb(68, 0, 255); */
+
+}
+.purchase_left_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid blue; */
+    position: relative;
+
+}
+.purchase_box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 55.537px;
+    /* border: 3px solid black; */
+
+    
+}
+
+.purchase_tittle{
+    color: #677DA8;
+font-size: 51.834px;
+font-family: 'PT Serif', serif;
+line-height: 70.809px;
+text-transform: uppercase;
+font-weight: 700;
+}
+.purchase_text{
+    display: flex;
+width: 568.327px;
+height: 60.165px;
+flex-direction: column;
+color: #677DA8;
+font-family: 'PT Serif', serif;
+
+font-size: 16.661px;
+line-height: 35.173px;
+}
+.purchase_btn_box{
+    display: flex;
+padding: 18.512px 46.281px;
+align-items: flex-start;
+gap: 9.256px;
+border-radius: 9.256px;
+background: #FFF;
+box-shadow: 1.85122811794281px 10.181755065917969px 18.51228141784668px 0px rgba(51, 99, 108, 0.08);
+}
+.shop_now{
+    color: #677DA8;
+font-size: 25px;
+font-family: 'PT Serif', serif;
+
+text-transform: capitalize;
+border: none;
+background-color: #FFF;
+
+}
+
+
+.arrow{
+  
+   width: 247.253px;
+height: 66.345px;
+transform: rotate(20deg);
+
+flex-shrink: 0;
+}
+.dotted_line{
+   
+    width: 247.253px;
+height: 70.233px;
+flex-shrink: 0;
+background: url(../imges/dashed-line-paper-airplane-route-free-png.webp);
+background-size:contain;
+background-color: transparent;
+background-repeat: no-repeat;
+}
+.arrow_and_rating_main_wrapper{
+    /* border: 5px solid rgb(210, 195, 203); */
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+right:65px;
+bottom:25px;
+}
+
+/* shoe image section start */
+
+.shoe_3D{
+    width: 611.831px;
+height: 611.831px;
+flex-shrink: 0;
+background: url(../imges/shoes.png)  ;
+background-size: 570px;
+background-repeat: no-repeat;
+/* border:5px solid royalblue; */
+position: relative;
+/* border: 5px solid green; */
+
+
+}
+
+.discount_box2{
+    width: 222.147px;
+height: 95.338px;
+flex-shrink: 0;
+border-radius: 9.256px;
+background: rgba(255, 255, 255, 0.54);
+position: absolute;
+bottom: 0px;
+right: 40px;
+text-align: center;
+border-top: 4px;
+/* border: 2px solid red; */
+
+}
+.discount_description{
+    color: #677DA8;
+    /* background-color: blueviolet; */
+font-family: 'PT Serif', serif;
+font-size: 12.959px;
+line-height: 18.512px;
+}
+.discount_text{
+    color: #677DA8;
+font-size: 14.81px;
+font-family: 'PT Serif', serif;
+
+text-transform: uppercase;
+
+}
+
+.lower_tittle_box{
+    /* border: 10px solid rgb(211, 35, 35); */
+    color: #677DA8;
+font-size: 50px;
+font-family: Gilroy-Black;
+line-height: 70.809px;
+text-transform: uppercase;
+font-weight: 400;
+box-sizing: border-box;
+margin-left: 50px;
+margin-top: 20px;
+/* font-family: 'Dosis', sans-serif; */
+font-family: 'PT Serif', serif;
+
+
+/* gap:5px; */
+    
+}
+
+/* rating box design */
+
+
+
+.rating_box_main_container{
+    display: inline-flex;
+flex-direction: column;
+align-items: center;
+gap: 9.256px;
+justify-content: space-around;
+/* border: 5px solid rgb(66, 153, 51); */
+position: relative;
+top:26px;
+box-sizing: border-box;
+
+
+}
+
+
+.ratingstars_and_number{
+    /* border: 3px solid rgb(200, 14, 178); */
+    height: 30px;
+    display: flex;
+justify-content: center;
+margin-top: 15px;
+box-sizing: border-box;
+align-items: center;
+gap: 4.628px;
+
+
+
+}
+.rating_stars{
+    display: flex;
+    align-items: center;
+
+}
+.star{
+    width: 22.215px;
+height: 25px;
+/* background-color: rgb(192, 122, 31); */
+}
+.rating_number{
+/* border: 2px solid seagreen; */
+    display: flex;
+    padding: 0px 4.628px 0px 0px;
+    align-items: flex-start;
+}
+.num {
+    color: #677DA8;
+font-size: 22.215px;
+font-family: 'PT Serif', serif;
+
+}
+
+.user_total_rating
+{
+    /* border: 3px solid rgb(4, 255, 0); */
+    color: #677DA8;
+font-size: 16px;
+font-family: 'PT Serif', serif;
+margin-top: -4px;
+
+}
+

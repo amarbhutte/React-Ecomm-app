@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    max-width:1599.461px;
+   min-width: 1024px;
+    /* width:1200px; */
+    height: 1319px;
+flex-shrink: 0;
+/* border: 20px solid rgb(51, 255, 0); */
+/* background-color: aqua; */
+
+
+}
+
+/* .dupli{
+  /* border: 10px solid red; 
+  display: flex;
+  gap:20px;
+}
+
+ */
+
+
+.container{
+    /* width:1599.461px; */
+    width: 100%;
+    height: 1319px;
+    flex-shrink: 0;
+display: flex;
+/* align-items: center; */
+justify-content: center;
+    background: linear-gradient(135deg, #FFDCF3 2.08%, #D7FFFF 100%);
+    /* border: 3px solid pink; */
+/* border: 10px solid red; */
+
+
+
+}
+
+@media screen and (min-width:250px) and (max-width: 767px) {
+    /* CSS rules for devices with a maximum width of 767px (e.g., mobile phones) */
+    body {
+      width: 100%;
+      /* background-color: chartreuse; */
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      /* border: 12px solid red; */
+
+
+    }
+    
+  
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* CSS rules for devices with a minimum width of 768px and a maximum width of 1023px (e.g., tablets) */
+    body {
+      /* Adjust body styles for medium-sized devices */
+    }
+    
+    .container {
+      /* Adjust container styles for medium-sized devices */
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    /* CSS rules for devices with a minimum width of 1024px (e.g., desktops) */
+    body {
+      /* Adjust body styles for larger devices */
+    }
+    
+    .container {
+      /* Adjust container styles for larger devices */
+    }
+  }
+  

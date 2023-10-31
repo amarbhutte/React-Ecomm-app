@@ -1,0 +1,23 @@
+.produts_main_text{
+    color: #677DA8;
+font-size: 42.578px;
+font-weight: 600;
+font-family: sans-serif;
+line-height: 70.809px;
+text-transform: uppercase;
+text-align: center;
+
+width: 720px;
+
+
+}
+.map_over_data{
+    display: flex;
+    gap:40px;
+    
+    justify-content: center;
+
+}
+.popular_wrapper{
+    display: flex;
+}

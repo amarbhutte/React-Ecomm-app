@@ -1,0 +1,241 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Caprasimo&family=Dosis:wght@200;600;700;800&family=Noto+Sans+KR:wght@400;500&display=swap'); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+/* font-family: 'Rowdies', cursive; */
+.products_main{
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 46.281px;
+}
+
+ .product_frame{
+    display: flex;
+align-items: flex-start;
+gap: 27.768px;
+/* border: 10px solid rgb(29, 19, 24); */
+
+}
+.sub_frame{
+    display: flex;
+align-items: flex-start;
+gap: 27.768px;
+/* border: 10px solid rgb(9, 255, 0); */
+
+}
+.group_product{
+    /* width: 277.684px; */
+    height: 202.709px;
+    /* border: 5px solid rgb(0, 38, 255); */
+display: flex;    
+/* width: 277.684px; */
+height: 202.709px;
+border-radius: 18.512px 18.512px 0px 0px;
+background:rgb(255,255,255);
+/* border: 2px solid rgb(237,205,226) */
+;
+}
+
+.group_img{
+    width: 202.709px;
+/* height: 202.709px; */
+/* flex-shrink: 0; */
+display: flex;
+flex: 1;
+padding: 10px;
+/* background-color: #E142AA; */
+/* background: url(<path-to-image>), lightgray 50% / ; */
+
+}
+
+.another_group{
+    width: 29.62px;
+height: 29.62px;
+flex-shrink: 0;
+
+}
+
+.heart_icon{
+    width: 18.512px;
+height: 18.512px;
+flex-shrink: 0;
+}
+.heart_back{
+    width: 29.62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+height: 29.62px;
+flex-shrink: 0;
+border-radius: 29.62px;
+background: radial-gradient(56.01% 56.01% at 40.62% 29.69%, rgba(255, 255, 255, 0.19) 4.81%, rgba(255, 255, 255, 0.00) 100%), linear-gradient(180deg, #E142AA 0%, #73FFFF 100%);
+}
+.reactangle{
+    width: 277.684px;
+height: 185.123px;
+flex-shrink: 0;
+display: flex;
+
+border-radius: 18.512px 18.512px 0px 0px;
+
+;
+}
+
+
+
+
+
+/* below */
+.sub_fram{display: flex;
+flex-direction: column;
+align-items: center;
+gap: 11.107px;
+
+border-radius: 18.512px 18.512px 0px 0px;
+
+
+box-sizing: border-box;
+}
+.product_small_bottom_frame{
+    display: flex;
+    align-items: flex-end;
+    gap: 27.768px;
+    
+}
+.bottom_frame1{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 9.256px;
+}
+.bottom_frame1_sub_frame1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.628px;
+    
+}
+.bottom_frame3730{
+    display: flex;
+    align-items: center;
+    gap: 27.768px;
+    
+
+    
+}
+.review_frame{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 9.256px;
+
+
+}
+.review_frame_sub1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.851px;
+}
+.review_frame_sub2{
+    display: flex;
+    align-items: flex-start;
+    color: #202020;
+font-size: 14.959px;
+font-weight: 600;
+font-family: sans-serif;
+}
+
+
+
+
+
+.tittle_frame{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 9.256px;
+}
+
+
+
+
+.bottom_frame2{
+    display: flex;
+padding: 7.405px 9.256px;
+align-items: flex-start;
+gap: 9.256px;
+box-sizing: border-box;
+border-radius: 9.256px;
+background: #FFF;
+box-shadow: 1.85122811794281px 10.181755065917969px 18.51228141784668px 0px #F2DDEB;
+border: 20px solid teal;
+
+}
+
+
+.tittle_frame3695{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 9.256px;
+/* border:6px solid green */
+
+}
+
+.tittle_frame_3695_text{
+    color: #202020;
+font-size: 20px;
+/* font-family: Gilroy-Medium; */
+text-transform: capitalize;
+font-family: 'Rowdies', cursive;
+/* background-color: #E142AA; */
+}
+.bottom_frame3730{
+    display: flex;
+align-items: center;
+gap: 27.768px;
+/* border: 13px solid rgb(3, 168, 11); */
+/* background-color: #E142AA; */
+
+}
+.frame3730_text_Rs{
+    color: #202020;
+    font-weight: 600;
+font-size: 16.661px;
+text-transform: capitalize;
+font-family: 'Rowdies', cursive;
+}
+.frame3730_text_sold_out{
+    color: #202020;
+font-size: 17px;
+font-weight:600;
+text-decoration: line-through;
+
+font-family: sans-serif;
+
+
+}
+
+.frame3692{
+    display: flex;
+padding: 7.14px 9.256px;
+box-sizing: border-box;
+align-items: flex-start;
+gap: 9.256px;
+box-sizing: border-box;
+border-radius: 9.256px;
+background: #FFF;
+border: none;
+box-shadow: 1.85122811794281px 10.181755065917969px 18.51228141784668px 0px #F2DDEB;
+color: #677DA8;
+font-size: 15.81px;
+font-weight: 6000;
+text-transform: capitalize;
+font-family: sans-serif;
+text-align: center;
+}
+ 
